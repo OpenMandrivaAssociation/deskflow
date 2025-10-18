@@ -30,20 +30,20 @@ BuildRequires:  pkgconfig(gtest)
 %description
 Share a single keyboard and mouse between multiple computers
 
-%package -n %{libname}
-Summary:	Share a single keyboard and mouse between multiple computers
-Group:		System/Libraries
+#%package -n %{libname}
+#Summary:	Share a single keyboard and mouse between multiple computers
+#Group:		System/Libraries
 
-%description -n %{libname}
-Share a single keyboard and mouse between multiple computers
+#%description -n %{libname}
+#Share a single keyboard and mouse between multiple computers
 
-%package -n %{devname}
-Summary:	Development files for %{name}
-Group:		Development/C
-Requires:	%{libname} = %{EVRD}
+#%package -n %{devname}
+#Summary:	Development files for %{name}
+#Group:		Development/C
+#Requires:	%{libname} = %{EVRD}
 
-%description -n %{devname}
-Development files (Headers etc.) for %{name}.
+#%description -n %{devname}
+#Development files (Headers etc.) for %{name}.
 
 
 %prep
@@ -63,8 +63,8 @@ Development files (Headers etc.) for %{name}.
 %files -n %{libname}
 #%{_libdir}/*.so.*%{major}*
 
-%files -n %{devname}
-%{_includedir}/*
-%{_libdir}/*.so
-%{_libdir}/pkgconfig/*
-%{_libdir}/cmake/*
+#%files -n %{devname}
+#%{_includedir}/*
+#%{_libdir}/*.so
+#%{_libdir}/pkgconfig/*
+#%{_libdir}/cmake/*
