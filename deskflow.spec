@@ -21,6 +21,7 @@ BuildRequires:  cli11-devel
 BuildRequires:  help2man
 BuildRequires:  pkgconfig(Qt6Test)
 BuildRequires:  pkgconfig(xkbfile)
+BuildRequires:  pkgconfig(Qt6Network)
 
 %description
 Share a single keyboard and mouse between multiple computers
