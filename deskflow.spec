@@ -25,6 +25,8 @@ BuildRequires:  pkgconfig(Qt6Network)
 BuildRequires:  pkgconfig(tomlplusplus)
 BuildRequires:  qt6-qtbase-theme-gtk3
 BuildRequires:  pkgconfig(openssl)
+BuildRequires:  pkgconfig(gtest)
+
 %description
 Share a single keyboard and mouse between multiple computers
 
