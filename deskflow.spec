@@ -1,6 +1,6 @@
-#%define major 1
-#%define libname %mklibname deskflow
-#%define devname %mklibname deskflow -d
+#define major 1
+#define libname %mklibname deskflow
+#define devname %mklibname deskflow -d
 
 Name:		deskflow
 Version:	1.24.0
