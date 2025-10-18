@@ -60,7 +60,7 @@ Share a single keyboard and mouse between multiple computers
 %{_mandir}/man1/deskflow*
 %{_datadir}/metainfo/org.deskflow.deskflow.metainfo.xml
 
-%files -n %{libname}
+#%files -n %{libname}
 #%{_libdir}/*.so.*%{major}*
 
 #%files -n %{devname}
