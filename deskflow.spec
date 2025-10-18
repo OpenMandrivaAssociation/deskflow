@@ -22,7 +22,9 @@ BuildRequires:  help2man
 BuildRequires:  pkgconfig(Qt6Test)
 BuildRequires:  pkgconfig(xkbfile)
 BuildRequires:  pkgconfig(Qt6Network)
-
+BuildRequires:  pkgconfig(tomlplusplus)
+BuildRequires:  qt6-qtbase-theme-gtk3
+BuildRequires:  pkgconfig(openssl)
 %description
 Share a single keyboard and mouse between multiple computers
 
