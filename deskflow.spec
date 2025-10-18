@@ -1,3 +1,5 @@
+# When build locally there was a library componet that the ABF did not create. Leaving left overs in case this oddity becomes an issue.
+
 #define major 1
 #define libname %mklibname deskflow
 #define devname %mklibname deskflow -d
