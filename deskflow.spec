@@ -61,7 +61,7 @@ Development files (Headers etc.) for %{name}.
 %{_datadir}/metainfo/org.deskflow.deskflow.metainfo.xml
 
 %files -n %{libname}
-%{_libdir}/*.so.*%{major}*
+#%{_libdir}/*.so.*%{major}*
 
 %files -n %{devname}
 %{_includedir}/*
