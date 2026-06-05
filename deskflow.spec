@@ -6,7 +6,7 @@
 
 Name:		deskflow
 Version:	1.24.0
-Release:	1
+Release:	2
 Source0:	https://github.com/deskflow/deskflow/archive/v%{version}/%{name}-v%{version}.tar.gz
 Summary:	Share a single keyboard and mouse between multiple computers
 URL:		https://github.com/deskflow/deskflow
