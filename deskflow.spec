@@ -5,8 +5,8 @@
 #define devname %mklibname deskflow -d
 
 Name:		deskflow
-Version:	1.24.0
-Release:	2
+Version:	1.26.0
+Release:	1
 Source0:	https://github.com/deskflow/deskflow/archive/v%{version}/%{name}-v%{version}.tar.gz
 Summary:	Share a single keyboard and mouse between multiple computers
 URL:		https://github.com/deskflow/deskflow
